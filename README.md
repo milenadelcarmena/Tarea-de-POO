@@ -1,5 +1,6 @@
 # Tarea-de-POO
 Ejemplos de Técnicas de programación Abstracción, Encapsulación, Herencia, Polimorfismo
+
 Explico el codigo de abstraccion
 Clase Abstracta Dispositivo, define dos métodos abstractos, encender y apagar que deben ser implementados por cualquier clase que herede de Dispositivo.
 Clases Concretas Computadora y Teléfono, implementan los métodos encender y apagar, proporcionando la lógica específica para cada tipo de dispositivo.
