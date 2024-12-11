@@ -2,12 +2,14 @@
 Ejemplos de Técnicas de programación Abstracción, Encapsulación, Herencia, Polimorfismo
 
 Explico el codigo de abstraccion
+
 Clase Abstracta Dispositivo, define dos métodos abstractos, encender y apagar que deben ser implementados por cualquier clase que herede de Dispositivo.
 Clases Concretas Computadora y Teléfono, implementan los métodos encender y apagar, proporcionando la lógica específica para cada tipo de dispositivo.
 La Función main, crea una lista de dispositivos y muestra el resultado de encender y apagar cada uno.
 
 
 Explico el codigo encapsulacion
+
 Los atributos privados atributos __nombre y __edad son privados, lo que significa que no pueden ser accedidos directamente desde fuera de la clase.
 Métodos Públicos La clase proporciona métodos públicos
 obtener_nombre y obtener_edad para acceder a los atributos privados.
@@ -16,6 +18,7 @@ Uso de la Clase En la función main, se crea una instancia de Persona se obtiene
 
 
 Explico el codigo Herencia
+
 Clase Base Persona
 Contiene un constructor que inicializa nombre y edad.
 Tiene un método descripcion que devuelve información básica sobre la persona.
@@ -29,6 +32,7 @@ Se imprime la descripción de cada uno
 
 
 Explico el codigo Polimorfismo
+
 Clase Base Empleado
 Es un método presentar, que se espera que sea implementado por las subclases. Si no se implementa, se lanza un error.
 Clases Derivadas Desarrollador y Gerente
@@ -37,6 +41,6 @@ Implementamos el método presentar de manera diferente
 Desarrollador Devuelve el mensaje "Hola, soy un desarrollador."
 Gerente Devuelve el mensaje "Hola, soy un gerente."
 Uso de las Clases
-En la función main, se crean instancias de Desarrollador y Gerente.
+la función main, se crean instancias de Desarrollador y Gerente.
 
 
